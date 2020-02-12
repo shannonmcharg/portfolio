@@ -1,5 +1,5 @@
 url:
-baseurl: 
+baseurl:
 
 # Site settings
 title: Efficient Interaction
@@ -13,30 +13,27 @@ people:
   pic: 1
   position: Principal
   social:
-    - title: email
+    - title: envelope
       url: mailto:shannon@efficientinteraction.com
     - title: linkedin
       url: http://linkedin.com/in/smcharg
     - title: twitter
       url: https://twitter.com/EfficientIxD
+    - title: github
+      url: http://github.com/mcharg
+    - title: github
+      url: http://github.com/shannonmcharg
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/EfficientIxD
+  - title: linkedin
+    url: http://linkedin.com/in/smcharg
   - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+    url: http://github.com/mcharg
+  - title: github
+    url: http://github.com/shannonmcharg
 
 # Build settings
 markdown: kramdown
