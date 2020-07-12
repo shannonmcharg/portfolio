@@ -12,18 +12,22 @@ tasks: Service Design, Interaction Design, Prototyping
 deliverables: Workflow Diagrams, Wireframes, Mobile Prototype, Quick Start Guide
 
 ---
+### Users
+College students who want peace of mind when walking alone on campus.
 ### Problem
-* TBD
+POMCO provides personal safety tools utilizing a key-chain device linked to a mobile app for college students living on campus. In order to enable students to make an emergency call to campus security with the push of a button, the POMCO team needed a more user-friendly process to get students up and running quickly.<br>
+The POMCO team needed help educating students about their personal safety device and app as well as designing an intuitive user interface for campus security dispatchers to use when receiving an emergency call from students.
 
-### Process
-![Image showing process ](./img/portfolio/TBD)
 ### Solution
-* TBD
+Using thorough end-to-end process analysis for both online and offline POMCO components, Useagility distilled the set-up process and tested it by simulating real-world campus safety situations before updating the front- and back-end web site and app and designing a quick- start guide especially for students.  I was the lead designer on the project.
 
 ### Screens
 #### Before
+![Image showing the student mobile app and dispatcher page before the redesign.](./img/portfolio/Useagility/POMCO/Img_POMCO_Before.png)
+
 #### After
+![Image showing the student mobile app and dispatcher page after the redesign.](./img/portfolio/Useagility/POMCO/Img_POMCO_After.png)
+![Image showing the student mobile app and keychain device.](./img/portfolio/Useagility/POMCO/Pomco.png)
 
-
-### Results
-TBD
+#### User flow
+![Image showing user flow.](./img/portfolio/Useagility/POMCO/Img_POMCO_ProcessFlow.png)

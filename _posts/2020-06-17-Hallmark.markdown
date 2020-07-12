@@ -12,18 +12,28 @@ tasks: Interaction Design, Responsive Web Design
 deliverables: Wireframes, Responsive Prototype
 
 ---
+### Users
+Online shoppers who are purchasing clothing for babies.
+
 ### Problem
-* TBD
+Hallmark is more than a greeting card company – it’s a brand engaging customers emotionally with a variety of digital and tangible products.<br>
+When Hallmark needed an upscale ecommerce site for Hallmark Baby, Useagility customized their Demandware ecommerce platform to deliver an engaging and efficient customer shopping experience.
+
 
 ### Process
-![Image showing process ](./img/portfolio/TBD)
+I worked in tandem with another designer on this project. The other designer designed the desktop wireframes and I adapted the responsive designs for other viewport sizes. We used Demandware's extensive documentation and templates to ensure the designs could be implemented using their framework.
 ### Solution
-* TBD
-
-### Screens
-#### Before
-#### After
+Useagility worked closely with the Hallmark Baby team to understand their goals for the shopping experience before exploring the capabilities of the Demandware solution and creating customized responsive wireframes and prototypes using Axure.<br>
+Defining desired workflows and functionality through clickable prototypes gives development teams like Hallmark Baby’s clear specifications for what they should build, allowing quick site implementation to capitalize on brand momentum in other markets.
 
 
-### Results
-TBD
+### Product selection page
+#### Wireframe
+![Image showing a wireframe of the product selection page.](./img/portfolio/Useagility/Hallmark/Wire_Thumbnail.png)
+#### Implementation
+![Image showing the implemented product selection page.](./img/portfolio/Useagility/Hallmark/Final_Thumbnail.jpg)
+### Product detail page
+#### Wireframe
+![Image showing a wireframe of the product detail page.](./img/portfolio/Useagility/Hallmark/Wire_Product.png)
+#### Implementation
+![Image showing the implemented product detail page.](./img/portfolio/Useagility/Hallmark/Final_Product.jpg)

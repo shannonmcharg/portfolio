@@ -7,23 +7,9 @@ thumbnail: NRRD_1.jpg
 alt: Screenshot of the Natural Resources Revenue Data portal homepage.
 client: Office of Natural Resources Revenue
 category: civic
-description: I am currently an Innovation Specialist with the U.S. Department of the Interior’s Office of Natural Resources Revenue focused on user experience. This blog post is a good demonstration of the work I’m doing for them and you can view all of my work on <a href=https://github.com/ONRR/doi-extractives-data/wiki>GitHub</a>.
+description: I am currently an Innovation Specialist with the U.S. Department of the Interior’s Office of Natural Resources Revenue focused on user experience.
 tasks: User research, participant recruitment, user type definition, conceptual design, detailed interaction design, visual design, build reviews
 deliverables: User research guides, plans and findings, high fidelity Axure prototypes, low fidelity Axure prototypes, journey maps & process diagrams
 
 ---
-### Problem
-* TBD
-
-### Process
-![Image showing process ](./img/portfolio/TBD)
-### Solution
-* TBD
-
-### Screens
-#### Before
-#### After
-
-
-### Results
-TBD
+I haven't had time to put together detailed case studies for projects I've done in my current role.  You can read about the work we've been doing in [our blog](https://revenuedata.doi.gov/blog/) and you can view all of my work on [GitHub](https://github.com/ONRR/doi-extractives-data/wiki).
