@@ -12,18 +12,27 @@ tasks: Conceptual Design, Interaction Design, Responsive Web Design, Prototyping
 deliverables: Sitemap, Content Inventory, Wireframes, Responsive Prototype
 
 ---
+### Users
+Nursing students use ATI's products to study and gauge their readiness the NCLEX board exam.
+
 ### Problem
-* TBD
+Improve user engagement, accommodate mobile use and support easy access to assessments, tools and content.
 
 ### Process
-![Image showing process ](./img/portfolio/TBD)
+I worked on several ATI products over several years with Useagility. We conducted user research to understand user needs and developed a base design to meet those needs for the first product we worked on and then replicated similar designs across other products in their product family. I was the lead UX designer for the first product geared towards students and several of the subsequent products geared towards students, faculty, and ATI coaches.
+
 ### Solution
-* TBD
+* A card-based design that emphasized the learning loop made it easier for users to understand how to navigate the pieces of the product on a variety of devices.
+* Visuals to indicate how far the student is along the process towards being ready for the NCLEX exam.
 
 ### Screens
-#### Before
-#### After
-
+#### Homepage
+![Image showing the homepage with cards and the learning loop.](./img/portfolio/Useagility/ATI/Cards.jpg)
+#### Learning Loop
+![Image showing the learning loop progress.](./img/portfolio/Useagility/ATI/Loop.jpg)
+#### Readiness Assessment
+![Image showing readiness using graphs.](./img/portfolio/Useagility/ATI/Graphs.jpg)
 
 ### Results
-TBD
+As a result of our work, ATI saw student outcomes improve, along with an expanded client base, greater engagement with educational material and significant increases in their net promoter score (NPS) and client satisfaction scores.<br>
+Within two days of implementing the new designs, ATI had 500 students logging in—and received zero support calls. Two days later, 1,000 students had accessed every area of the site and made only five calls—half of which were students complimenting the changes.

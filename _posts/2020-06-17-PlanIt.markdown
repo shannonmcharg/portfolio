@@ -7,23 +7,30 @@ thumbnail: PlanIt.png
 alt: PlanIt Impact after redesign
 client: PlanIt Impact
 category: consulting
-description: Interaction Design, Responsive Web Design, Prototyping
-tasks: Conceptual Design, Interaction Design, Responsive Web Design, Prototyping
+description: Design for a new product to allow architects and city planners to evaluate the environmental impact of their designs.
+tasks: Interaction Design, Responsive Web Design, Prototyping
 deliverables: Workflow Diagrams, Wireframes, Responsive Prototype
 
 ---
+### Users
+Architects and city planners use the PlanIt Impact to evaluate the environmental impact of their designs.
 ### Problem
-* TBD
+Simplify a complex process to integrate open sustainability data with third-party structural design applications, making it easy for users to assess – and share – the environmental impacts of their designs.
 
 ### Process
-![Image showing process ](./img/portfolio/TBD)
+With my teammates at Useagility, we interviewed several users to learn about what their needs were and did a few iterations on the design before it was built by their internal developers. I was the lead deisnger and responsible for conceptual and detailed design for each iteration.
+
 ### Solution
-* TBD
+* Responsive web application that imports files from architectural software to evaluate sustainability of a design.
+* Allows users to compare sustainability across multiple design options.
 
 ### Screens
-#### Before
-#### After
+#### Homepage (mobile)
+![Image showing the mobile homepage.](./img/portfolio/Useagility/PlanIt/Homepage_PlanitImpact.jpg)
+
+#### Comparison report
+![Image showing a report comparing multiple designs.](./img/portfolio/Useagility/PlanIt/PlanItImpact_Bottom_Left.jpg)
 
 
 ### Results
-TBD
+The final step prior to development was to incorporate the results of the concept testing into a fully-functioning prototype, including data integration and visualizations, then test it with users again. In this stage, we validated the responsive and adaptive features we designed for mobile devices and ensured the data visualizations were clear and intuitive.
