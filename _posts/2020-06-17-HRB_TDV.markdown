@@ -1,0 +1,32 @@
+---
+title: Tax Data Visualization
+layout: default
+modal-id: 15
+date: 2020-06-10
+thumbnail: TDV.png
+alt: Visualization of a tax return on a graph
+client: H&R Block
+category: HRB
+description: New screens to visually explain tax situations to H&R Block office clients.
+tasks: Conceptual Design, Information Design, Collaboration with Visual Designers, Prototyping
+deliverables: Wireframes, High Fidelity Prototype
+
+---
+Read a [User Experience Magazine article](http://uxpamagazine.org/visualizing-tax-returns/) about this project.
+### Problem
+Enable tax professionals to explain to clients how they arrived at their refund or balance due.
+
+### Process
+![Image showing process](./img/portfolio/HRB/TDV/TDV_Process.jpg)
+### Solution
+* Designed a graph view that shows where the client’s money goes in a tax return.
+* Collaborated with a visual designer to ensure the visual design conveyed the message.
+* Tested with clients and tax pros to ensure the graph facilitated the conversation.
+
+### Tax Summary
+![Image showing a graphical summary of a tax return using a vertical bar chart to show the difference between the balance due and amount paid and how that equals the refund (federal) or balance due (state) amount.](./img/portfolio/HRB/TDV/TDV_Ex1.png)
+
+### Results
+* Designs performed well in usability studies.
+* Launched as a beta the first year and then released nationwide the following year because it performed well in the field with both tax professionals and clients.
+* Additional screens to visually explain tax data were designed the second year as a result of the success of this screen.

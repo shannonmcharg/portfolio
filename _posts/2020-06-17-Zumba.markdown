@@ -1,0 +1,34 @@
+---
+title: Zumba Instructor Network Portal
+layout: default
+modal-id: 8
+date: 2020-06-03
+thumbnail: Zumba.png
+alt: Image of Zumba Instructor Network portal
+client: Zumba Fitness
+category: consulting
+description: Redesign of the Zumba Instructor Network portal.
+tasks: Content Inventory, Template Design, Information Architecture, Collaboration with Visual Designers
+deliverables: Content Inventory, Screen Templates, Wireframes, Prototype
+---
+### Problem
+* Users had difficulty navigating the portal for instructors.
+* The layout on screens within the portal was inconsistent and difficult to understand.
+
+### Process
+![Image showing process including inventory existing screens, design screen templates, apply templates to screens, design navigation menu, review comps, and create prototype from comps for usability study.](./img/portfolio/Zumba/Zumba_Flow.jpg)
+
+### Solution
+* Templatized the screens within the portal.
+* Added a navigation menu to make it easier to find content.
+
+### Edit Account screen
+#### Before
+![Image showing Edit Account screen before redesign.](./img/portfolio/Zumba/ZumbaAcct_Before.png)
+#### After
+![Image showing Edit Account screen after redesign.](./img/portfolio/Zumba/MyZINAccount_Blurred.png)
+### Training History screen
+#### Before
+![Image showing Training History screen before redesign.](./img/portfolio/Zumba/ZumbaTraining_Before.png)
+#### After
+![Image showing Training History screen after redesign.](./img/portfolio/Zumba/ZumbaTraining_After.png)

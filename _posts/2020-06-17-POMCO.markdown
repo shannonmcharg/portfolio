@@ -1,0 +1,29 @@
+---
+title: POMCO Emergency Alert System
+layout: default
+modal-id: 6
+date: 2020-06-05
+thumbnail: POMCO_002.png
+alt: POMCO after redesign
+client: POMCO
+category: consulting
+description: Redesign of a mobile app with bluetooth connected device used by students to alert campus security when they are in an emergency situation. Also redesigned dispatcher dashboard and the flow between the two users.
+tasks: Service Design, Interaction Design, Prototyping
+deliverables: Workflow Diagrams, Wireframes, Mobile Prototype, Quick Start Guide
+
+---
+### Problem
+* TBD
+
+### Process
+![Image showing process ](./img/portfolio/TBD)
+### Solution
+* TBD
+
+### Screens
+#### Before
+#### After
+
+
+### Results
+TBD

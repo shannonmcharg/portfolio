@@ -4,11 +4,20 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p class="section-subheading text-muted">Note: I take client confidentiality seriously and most of my deliverables are internal documents that I can't share on my public website.  Below shows before and after states for projects that have gone live with some explanation of the process.  If you would like to see samples of my UX deliverables or learn more about my process, I'd be happy to discuss and share what I think is appropriate during an interview.
+
+                    </p>
+
                 </div>
+
             </div>
             <div class="row">
+              <div class="col-lg-12">
+              <h3>Government & civic work</h3>
+              <p class="section-subheading text-muted">I’ve been doing civic volunteer work since 2015 and took a full-time position as an Innovation Specialist with the U.S. Department of the Interior’s Office of Natural Resources Revenue in 2018.</p>
+                </div>
             {% for post in site.posts %}
+            {% if post.category == "civic" %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -20,10 +29,99 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
+                        <p class="text-muted">{{ post.description }}</p>
+                        <p class="text-muted">Tasks: {{ post.tasks }}</p>
+                        <p class="text-muted">Deliverables: {{ post.deliverables }}</p>
+
                     </div>
                 </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+              <h3>Consulting work</h3>
+              <p class="section-subheading text-muted">I consulted both on my own and for a UX agency for over 10 years.  My projects have ranged from one off usability studies and card sorts to a 2 year stint at Cengage Learning designing an educational product from the formative user research and concepting through detailed design and development support.  I have worked with companies in all stages of UX maturity and have learned what does and doesn't work with each type of company.</p>
+                </div>
+            {% for post in site.posts %}
+            {% if post.category == "consulting" %}
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.description }}</p>
+                        <p class="text-muted">Tasks: {{ post.tasks }}</p>
+                        <p class="text-muted">Deliverables: {{ post.deliverables }}</p>
+
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+              <h3>L.L.Bean</h3>
+              <p class="section-subheading text-muted">I was a long-term contractor with L.L.Bean for 4 years while they were making the transition to agile development and readying their site to become responsive.  Much of that 4 years was spent redesigning the website's header, footer, and entire product taxonomy, which went live recently.  The project involved selling the changes at all levels of the organization and doing ridiculous amounts of user research to satisfy the organization's quantitative needs because it was such a high profile change that impacts all areas of the organization.  Take a look at llbean.com <a href=https://web.archive.org/web/20121226195926/http:/www.llbean.com/>before</a> and <a href=https://www.llbean.com/>after</a> the redesign.</p>
+
+              <p>I also established a practice of prototyping and early research with users.  Before I arrived, they only tested designs with users after they were built.  Now, they test designs early and often using Axure prototypes.</p>
+                </div>
+            {% for post in site.posts %}
+            {% if post.category == "LLB" %}
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.description }}</p>
+                        <p class="text-muted">Tasks: {{ post.tasks }}</p>
+                        <p class="text-muted">Deliverables: {{ post.deliverables }}</p>
+
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+              <h3>H&R Block</h3>
+              <p class="section-subheading text-muted">I was an integral part of H&R Block's UX team, both as a UX designer and researcher, for 10 years.  I learned how to collaborate with tax attorneys and accountants to streamline regulations, resulting in a design that meets stringent requirements, yet is easy for users to understand.  UXPA's magazine published an article, <a href=http://uxpamagazine.org/engaging-citizens/>Visualizing Tax Returns: Showing the Impact in Design</a>, which discussed a strategic project I lead for Block's office clients.  I played  a key role in the transition from waterfall to agile development processes and led the effort to figure out how UX should fit into agile projects and established a pattern library.</p>
+                </div>
+            {% for post in site.posts %}
+            {% if post.category == "HRB" %}
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.description }}</p>
+                        <p class="text-muted">Tasks: {{ post.tasks }}</p>
+                        <p class="text-muted">Deliverables: {{ post.deliverables }}</p>
+
+                    </div>
+                </div>
+                {% endif %}
             {% endfor %}
             </div>
         </div>
+    </section>
+
     </section>

@@ -1,0 +1,29 @@
+---
+title: PlanIt Impact Architecture Reporting Tool
+layout: default
+modal-id: 5
+date: 2020-06-06
+thumbnail: PlanIt.png
+alt: PlanIt Impact after redesign
+client: PlanIt Impact
+category: consulting
+description: Interaction Design, Responsive Web Design, Prototyping
+tasks: Conceptual Design, Interaction Design, Responsive Web Design, Prototyping
+deliverables: Workflow Diagrams, Wireframes, Responsive Prototype
+
+---
+### Problem
+* TBD
+
+### Process
+![Image showing process ](./img/portfolio/TBD)
+### Solution
+* TBD
+
+### Screens
+#### Before
+#### After
+
+
+### Results
+TBD

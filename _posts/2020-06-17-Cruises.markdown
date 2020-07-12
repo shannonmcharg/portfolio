@@ -1,0 +1,42 @@
+---
+title: Cruises Only
+layout: default
+modal-id: 10
+date: 2020-06-01
+thumbnail: CruisesOnly.png
+alt: Image of Cruises Only website
+client: Cruises Only
+category: consulting
+description: Project to restructure the navigation and create page templates.
+tasks: Sitemap Analysis, Information Architecture
+deliverables: Sitemap, Wireframes, Screen Templates
+---
+### Problem
+* A new client wasn’t satisfied with the organization of the ship information pages on Cruises Only’s site, so they requested a redesign before they would use the service.
+* The information architecture wasn’t intuitive.
+* Users weren’t able to easily drill down into detailed information they were looking for.
+* Users couldn’t easily scan pages to find information they were looking for.
+### Process
+![Image showing process including current sitemap analysis, revised sitemap, and wireframes & page templates.](./img/portfolio/CruisesOnly/CruisesOnly_Process.jpg)
+### Solution
+* Revised the information architecture to match common user tasks.
+* Changed the layout of pages to enable easy scanning and drilling.
+* Templatized the pages for use with all of their clients.
+### Information architecture
+#### Before
+![Image showing information architecture before redesign.](./img/portfolio/CruisesOnly/CruisesOnlyIA_Before.png)
+#### After
+![Image showing information architecture after redesign.](./img/portfolio/CruisesOnly/CruisesOnlyIA_After.png)
+### Informational page
+#### Before
+![Image showing Informational screen before redesign.](./img/portfolio/CruisesOnly/CruisesOnlyInfo_Before.png)
+#### After
+![Image showing Informational screen after redesign.](./img/portfolio/CruisesOnly/CruisesOnlyInfo_After.png)
+
+### Drill down page
+Replaced a long scrolling page.
+![Image showing drill down screen after redesign.](./img/portfolio/CruisesOnly/CruisesOnly_DrillDown.png)
+
+### Results
+* The client was satisfied with the redesigned pages.
+* Summative usability study confirmed that the redesigned pages are easier to use than the previous ones.

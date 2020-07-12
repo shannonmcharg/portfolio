@@ -1,0 +1,40 @@
+---
+title: 1040-EZ Mobile
+layout: default
+modal-id: 17
+date: 2020-06-08
+thumbnail: 1040EZMobile.png
+alt: Screenshot of 1040-EZ mobile product
+client: H&R Block
+category: HRB
+description: Design a mobile tax preparation app as part of the H&R Block At Home suite of tax preparation products.
+tasks: Conceptual Design, Interaction Design, Collaboration with Visual Designers and Vendors
+deliverables: Wireframes
+
+---
+### Problem
+* Provide a way for users with simple tax returns to file using their smart phone.
+* Allow users to take a picture of their W-2 for simplified data entry.
+* Ensure consistency with online tax preparation application.
+
+### Process
+![Image showing process ](./img/portfolio/HRB/EZ/EZ_Process.jpg)
+### Solution
+* Collaborated with visual designers to optimize the tax prep process for the phone.
+* Figured out ways to simplify the tax interview that we used in the online product for the small real estate on the phone.
+* Defined interaction for incorporating photo taking functionality into the W-2 interview.
+
+### Screens
+#### Main UI
+![Image showing main UI](./img/portfolio/HRB/EZ/EZ_Main.png)
+#### Income
+![Image showing income seleciton screen](./img/portfolio/HRB/EZ/EZ_Income.png)
+
+#### Photo Data Entry
+![Image showing photo data entry screen](./img/portfolio/HRB/EZ/EZ_Photo.png)
+
+
+
+### Results
+* Designs performed well in usability studies.
+* Average rating of 3.5 stars in both the Apple and Android App Stores.

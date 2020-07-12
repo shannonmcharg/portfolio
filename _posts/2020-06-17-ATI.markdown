@@ -1,0 +1,29 @@
+---
+title: ATI Nursing Education
+layout: default
+modal-id: 4
+date: 2020-06-07
+thumbnail: ATI.png
+alt: ATI after redesign
+client: ATI Nursing Education
+category: consulting
+description: Responsive redesign of student portal to allow students to complete tutorials, practice exams, and reviews to prepare for their NCLEX certification exam.
+tasks: Conceptual Design, Interaction Design, Responsive Web Design, Prototyping
+deliverables: Sitemap, Content Inventory, Wireframes, Responsive Prototype
+
+---
+### Problem
+* TBD
+
+### Process
+![Image showing process ](./img/portfolio/TBD)
+### Solution
+* TBD
+
+### Screens
+#### Before
+#### After
+
+
+### Results
+TBD

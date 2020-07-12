@@ -1,0 +1,29 @@
+---
+title: Hallmark Baby Responsive E-Commerce Site
+layout: default
+modal-id: 7
+date: 2020-06-04
+thumbnail: hallmarkbaby.png
+alt: Hallmark Baby website
+client: Hallmark
+category: consulting
+description: New responsive site built using Demandware. Translated Demandware specifications to Hallmark Baby's domain.
+tasks: Interaction Design, Responsive Web Design
+deliverables: Wireframes, Responsive Prototype
+
+---
+### Problem
+* TBD
+
+### Process
+![Image showing process ](./img/portfolio/TBD)
+### Solution
+* TBD
+
+### Screens
+#### Before
+#### After
+
+
+### Results
+TBD

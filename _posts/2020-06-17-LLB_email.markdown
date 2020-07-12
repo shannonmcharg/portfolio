@@ -1,0 +1,27 @@
+---
+title: L.L.Bean Responsive Email
+layout: default
+modal-id: 13
+date: 2020-06-05
+thumbnail: LLB_email.png
+alt: L.L.Bean responsive email
+client: L.L.Bean
+category: LLB
+description: Redesign of L.L.Bean's transactional emails to make them responsive.
+tasks: Responsive Email Design, Interaction Design, Collaboration with Visual Designers, Prototyping
+deliverables: Wireframes, Responsive Prototype
+
+---
+### Problem
+Users viewing L.L.Bean transactional emails on their phones had a difficult time reading the contents of the email.
+
+### Process
+![Image showing process ](./img/portfolio/LLB/Email/LLBResponsiveEmailProcess.jpg)
+### Solution
+* Responsified existing emails and incorporated new business requirements related to matching transactional emails to the llbean.com order summary screen.
+
+### Transactional Email Screens
+#### Mobile
+![Image showing a transactional email on mobile.](./img/portfolio/LLB/Email/trans-mobile.png)
+#### Desktop
+![Image showing a transactional email on desktop.](./img/portfolio/LLB/Email/trans-desktop.png)

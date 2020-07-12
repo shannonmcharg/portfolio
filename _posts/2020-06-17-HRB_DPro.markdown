@@ -1,0 +1,29 @@
+---
+title: DeductionPro Donations
+layout: default
+modal-id: 24
+date: 2020-06-01
+thumbnail: DPro.png
+alt: Screenshot of DeductionPro donations
+client: H&R Block
+category: HRB
+description: Project to clear up user issues with data entry workflow in H&R Block's deduction tracking software.
+tasks: Data Analysis, Interaction Design, Usability Study, Usability Walkthrough
+deliverables: Functional Requirements, Workflow Diagram, Wireframes, Functional Specification
+
+---
+### Problem
+* TBD
+
+### Process
+![Image showing process ](./img/portfolio/TBD)
+### Solution
+* TBD
+
+### Screens
+#### Before
+#### After
+
+
+### Results
+TBD

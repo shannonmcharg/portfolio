@@ -1,0 +1,35 @@
+---
+title: L.L.Bean Account Redesign
+layout: default
+modal-id: 14
+date: 2020-06-04
+thumbnail: LLB_acct.png
+alt: L.L.Bean account page
+client: L.L.Bean
+category: LLB
+description: Redesign of My Account section to make it easier to use and usable across devices.
+tasks: Interaction Design, Responsive Web Design, Mobile Design, Adaptive Design, Detailed Design, Prototyping
+deliverables: Wireframes, Flow Diagrams, Responsive Prototype
+
+---
+### Problem
+* Account interface was dated and confusing for users based on an external usability review of the site.
+* Account functions weren't present on mobile site.
+
+### Process
+![Image showing process](./img/portfolio/LLB/Account/flow.jpeg)
+### Solution
+* Redesigned account screens that work well for all users on all devices.
+* Most common user tasks are bubbled up to the main My Account page for easy access.
+
+### Screens
+#### Before
+##### My Account Main Screen
+![Image showing My Account screen before redesign](./img/portfolio/LLB/Account/before-main.png)
+#### After
+##### Desktop
+![Image showing My Account screen after redesign on desktop](./img/portfolio/LLB/Account/after-desktop.png)
+##### iPad Portrait
+![Image showing My Account screen after redesign on desktop](./img/portfolio/LLB/Account/after-portrait.png)
+##### Mobile
+![Image showing My Account screen after redesign on desktop](./img/portfolio/LLB/Account/after-mobile.png)

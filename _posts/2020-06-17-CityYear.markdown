@@ -1,0 +1,41 @@
+---
+title: City Year Redesign
+layout: default
+modal-id: 9
+date: 2020-06-02
+thumbnail: CYRedesign.png
+alt: City Year homepage after redesign
+client: City Year
+category: consulting
+description: Redesign of the City Year website.
+tasks: Expert Review, Card Sort, Interaction Design
+deliverables: Expert Review Findings, Sitemap, Workflow Diagram, Wireframes
+
+---
+### Problem
+* The site was confusing and overwhelming for users.
+* Users didn't know where to start or where to go for specific information.
+* Subsites, such as the Application and Donation processes were confusing, as well, and buried within the main site.
+
+### Process
+![Image showing process including expert review, current sitemap analysis, card sort, revised sitemap, wireframes & page templates, and summative usability study.](./img/portfolio/CityYear/CY_Flow.jpg)
+### Solution
+* Revised information architecture to match card sort results.
+* Standardized page layouts.
+* Reworked subsites and processes to clarify purpose and process.
+* Reorganized application process into logical groupings to make it clear what needs to be done and in what order it will be done.
+* Made it clear that the user is in the application by taking away the site navigation.
+
+### Registration screen
+#### Before
+![Image showing registration screen before the redesign.](./img/portfolio/CityYear/CY_Before.png)
+#### After
+![Image showing registration screen after the redesign.](./img/portfolio/CityYear/CY_After.png)
+### Application process
+#### Before
+![Image showing application screen before the redesign.](./img/portfolio/CityYear/CYApp_Before.png)
+#### After
+![Image showing application screen after the redesign.](./img/portfolio/CityYear/CYApp_After.png)
+
+### Results
+Summative usability study confirmed an improved experience.
