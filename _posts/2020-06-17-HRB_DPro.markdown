@@ -13,17 +13,23 @@ deliverables: Functional Requirements, Workflow Diagram, Wireframes, Functional 
 
 ---
 ### Problem
-* TBD
+* Users who donated more than one type of item to a charity had to enter each item individually on a separate line.
+* Users didn’t understand what the Details button was for or how to access the details required for donations over $500.
 
 ### Process
-![Image showing process ](./img/portfolio/TBD)
+![Image showing process ](./img/portfolio/HRB/DPro/DPro_Process.jpg)
 ### Solution
-* TBD
+* Added the ability to enter a series of items for each trip to a charity.
+* Clarified the detail entry process.
 
-### Screens
+### Donation Entry Screens
 #### Before
+![Image showing first donation entry screen before redesign.](./img/portfolio/HRB/DPro/DPro_Before1.png)
+![Image showing second donation entry screen before redesign.](./img/portfolio/HRB/DPro/DPro_Before2.png)
 #### After
-
+![Image showing first donation entry screen after redesign.](./img/portfolio/HRB/DPro/DPro_After1.png)
+![Image showing second donation entry screen after redesign.](./img/portfolio/HRB/DPro/DPro_After2.png)
+![Image showing third donation entry screen after redesign.](./img/portfolio/HRB/DPro/DPro_After3.png)
 
 ### Results
-TBD
+A summative usability study and walkthrough confirmed reduced confusion over the details and increased time to enter noncash donations.

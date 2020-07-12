@@ -13,17 +13,31 @@ deliverables: Report Templates, Reporting Structure
 
 ---
 ### Problem
-* TBD
+* We had a difficult time identifying user issues that should be fixed in the product.
+* Multiple reports had to be reconciled to determine what the issues were and the severity of the issues.
+* We couldn't get a holistic view of the issues.
 
-### Process
-![Image showing process ](./img/portfolio/TBD)
+### Issue Identification Process
+![Image showing issue identification process.](./img/portfolio/HRB/SupportReports/SupportReports_Before.png)
 ### Solution
-* TBD
+Combine 5 reports into one.
+![Image showing how reports were combined.](./img/portfolio/HRB/SupportReports/TCSupportReports.png)
 
-### Screens
-#### Before
-#### After
 
+#### Combining reports allowed us to
+* Understand the total number of users who experience an issue.
+* Take action on the issues in the report.
+* Clearly see the effect that posting a given write-up has on volume.
+* Identify trends in volume.
+* Identify high-volume issues that need to be fixed.
+
+#### How I got to one report
+* Conducted a card sort with support agents to get accurate categorizations.
+* Tied knowledgebase articles to the categories agents use.
+* Developed a plan for ongoing maintenance of categories as new issues arise.
 
 ### Results
-TBD
+* Increased accuracy of support data.
+* Better understanding of exactly what issues users experience.
+* Improvements to the product.
+* Also helps QA troubleshoot technical issues.
