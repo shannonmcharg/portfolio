@@ -10,12 +10,17 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.9"
+gem "jekyll", "~> 4.3.3"
 
 # This is the default theme.
 gem "agency-jekyll-theme"
 gem "kramdown-parser-gfm"
 gem "webrick"
+
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -25,3 +30,4 @@ gem "webrick"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
 end
+

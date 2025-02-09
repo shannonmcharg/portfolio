@@ -28,3 +28,23 @@ View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-th
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
+
+# Containerized
+
+`make container` to build the build container
+
+All builds/work happens inside this container. It is frozen at Ruby 3.3 for compatibility reasons. 
+
+The `Gemfile.lock` is generated as part of the build process. It may be, at some point, that deleting the `Gemfile.lock` and then rerunning `make container ; make build` is a Good Thing.
+
+`make build` to build the site
+
+This should build the site, leaving everything in `_site`
+
+`make serve` to serve it locally at :4000
+
+This should build the site and launch a preview you can reach at 
+
+http://localhost:4000/
+
+
