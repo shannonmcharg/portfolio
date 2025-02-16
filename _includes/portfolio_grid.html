@@ -11,11 +11,13 @@
                 </div>
 
             </div>
-            <div class="row">
-              <div class="col-lg-12">
-              <h3>Government & civic work</h3>
-              <p class="section-subheading text-muted">I’ve been doing civic volunteer work since 2015 and took a full-time position as an Innovation Specialist with the U.S. Department of the Interior’s Office of Natural Resources Revenue in 2018.</p>
+            <div class="row">   
+                <div class="col-lg-12">
+                <h3>Government & civic work</h3>
+                <p class="section-subheading text-muted">I’ve been doing civic volunteer work since 2015 and took a full-time position as an Innovation Specialist with the U.S. Department of the Interior’s Office of Natural Resources Revenue in 2018.</p>
                 </div>
+            </div>    
+            <div class="row portfolio-container">    
             {% for post in site.posts %}
             {% if post.category == "civic" %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -38,11 +40,11 @@
                 {% endif %}
             {% endfor %}
             </div>
-            <div class="row">
               <div class="col-lg-12">
               <h3>Consulting work</h3>
               <p class="section-subheading text-muted">I consulted both on my own and for a UX agency for over 10 years.  My projects have ranged from one off usability studies and card sorts to a 2 year stint at Cengage Learning designing an educational product from the formative user research and concepting through detailed design and development support.  I have worked with companies in all stages of UX maturity and have learned what does and doesn't work with each type of company.</p>
                 </div>
+            <div class="row portfolio-container">    
             {% for post in site.posts %}
             {% if post.category == "consulting" %}
                 <div class="col-md-3 col-sm-6 portfolio-item">
