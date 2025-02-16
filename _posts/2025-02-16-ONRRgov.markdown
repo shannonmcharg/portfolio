@@ -1,0 +1,64 @@
+---
+title: ONRR.gov Redesign
+layout: default
+modal-id: 1
+date: 2025-02-15
+thumbnail: ONRRHome.jpg
+alt: Screenshot of the ONRR.gov homepage.
+client: Office of Natural Resources Revenue
+category: civic
+description: Redesign the U.S. Department of the Interior’s Office of Natural Resources Revenue primary website to be focused on user needs and get it out of Dreamweaver.
+tasks: User research, user type definition, conceptual design, detailed interaction design, visual design, content strategy, plain language, UX writing, build reviews
+deliverables: User research guides, plans and findings, high and fidelity prototypes, content in a CMS, CMS process documentation
+
+---
+### Context
+After we were successful at redesigning the Natural Resources Revenue Data portal, my team continued that work when we were given responsibility for the agency’s main website (<a href="https://onrr.gov/">onrr.gov</a>). That site is the public face of the agency and a portal for companies who lease lands from the government to report their resource production and pay the amounts they owe the agency.
+
+My team worked in the open and documented everything on a <a href="https://github.com/DOI-ONRR/onrr.gov-site/wiki">wiki</a> and in a <a href="https://revenuedata.doi.gov/blog/">blog</a>. Links in parentheses below go to pages on those websites. 
+
+
+### Redesign process
+My role in the redesign was to lead all UX and content strategy activities with help from 2 program analysts and several UX interns. The project used agile methodologies and I led user and stakeholder interviews throughout. I also acted as product manager and scrum master for much of this process because we had a year where we had no dedicted product manager on the team.
+
+#### Discovery
+* Content audit & sitemap 
+* User & stakeholder interviews (<a href="./blog/Getting stakeholder buy-in _ Open Data, Design, & Development at the Office of Natural Resources Revenue.pdf">Blog post about getting stakeholder buy-in</a>)
+* Product visioning (<a href="https://github.com/DOI-ONRR/onrr.gov-site/wiki/Product-framing">Product framing</a>)
+* Persona definition (<a href="./blog/Revisiting who uses ONRR.gov_ refining personas _ Open Data, Design, & Development at the Office of Natural Resources Revenue.pdf">Blog post about personas</a>)
+
+#### Old site maintenance
+* Update site in Dreamweaver and html
+* Move work tracking from ServiceNow into GitHub
+* Prioritize 3,000 documents that needed to be made accessible (<a href="./blog/Document accessibility_ getting from 5,000 to 0 _ Open Data, Design, & Development at the Office of Natural Resources Revenue.pdf">Blog post about making document accessible</a>)
+* Work with document owners to make documents accessible
+
+#### Redesign
+* Conduct card sorting and tree testing to define new information architecture (<a href="./blog/Open source card sorting _ Open Data, Design, & Development at the Office of Natural Resources Revenue.pdf">Blog post on card sorting</a>)(<a href="./blog/Tree testing using a clickable prototype _ Open Data, Design, & Development at the Office of Natural Resources Revenue.pdf">Blog post on tree testing</a>)
+* Redesign site to fit new information architecture
+* Rewrite all site content to plain language standards
+* Test prototypes with users and iterate designs
+* Redesign contact information to work for those who are contacts (<a href="./blog/I’m just going to call my old friend Cody_ why we created a troubleshooting guide _ Open Data, Design, & Development at the Office of Natural Resources Revenue.pdf">Blog post about contact info redesign</a>)
+
+#### CMS setup and customization
+* Research CMS options
+* Conduct user research with future CMS users
+* Work with developer to customize CMS to be able to handle everything in the design
+* Add all content to the CMS
+
+#### New site maintenance
+* Plan workflows for commonly updated content
+* Ensure content updaters know the process for using GitHub to track issues
+
+### Before and after
+Here's what the homepage looked like before and after the redesign.
+<br>
+![Screenshot of the onrr.gov homepage before the redesign.](./img/portfolio/ONRR/Dreamweaver.jpeg)
+<br>
+And what it looked like after the redesign.
+<br>
+![Screenshot of the onrr.gov homepage after the redesign](./img/portfolio/ONRR/ONRRHome.jpeg)
+
+### Learn more
+
+You can read about the work I did at the Office of Natural Resources Revenue in [my team's blog](https://revenuedata.doi.gov/blog/).
