@@ -1,15 +1,67 @@
 ---
-title: Natural Resources Revenue Data Portal
+title: Natural Resources Revenue Data Portal Product Framing
 layout: default
-modal-id: 1
+modal-id: 25
 date: 2020-03-11
 thumbnail: NRRD_1.jpg
 alt: Screenshot of the Natural Resources Revenue Data portal homepage.
 client: Office of Natural Resources Revenue
 category: civic
-description: I am currently an Innovation Specialist with the U.S. Department of the Interior’s Office of Natural Resources Revenue focused on user experience.
-tasks: User research, participant recruitment, user type definition, conceptual design, detailed interaction design, visual design, build reviews
-deliverables: User research guides, plans and findings, high fidelity Axure prototypes, low fidelity Axure prototypes, journey maps & process diagrams
+description: Reframing the U.S. Department of the Interior’s Office of Natural Resources Revenue data portal to be focused on user needs.
+tasks: Product framing, user research, participant recruitment, user type definition, conceptual design, detailed interaction design, visual design, build reviews
+deliverables: Product vision, user research guides, plans and findings, high and low fidelity prototypes, journey maps & process diagrams
 
 ---
-I haven't had time to put together detailed case studies for projects I've done in my current role.  You can read about the work we've been doing in [our blog](https://revenuedata.doi.gov/blog/) and you can view all of my work on [GitHub](https://github.com/ONRR/doi-extractives-data/wiki).
+### Context
+The Office of Natural Resources Revenue (ONRR) is a U.S. Department of the Interior agency that tracks revenue received and distributed from the management of natural resources on public lands and waters. 
+* I worked on an open data site with revenue data from oil & gas leases on federal lands.
+* The Extractive Industries Transparency Initiative (EITI) was the driver for the website.  
+* Shortly before I started in this role, the United States pulled out of the EITI.
+* As a result, we had to rethink what the site would become and had a lot more freedom to respond to user needs. 
+My team worked in the open and documented everything on a <a href="https://github.com/DOI-ONRR/nrrd/wiki">wiki</a> and in a <a href="https://revenuedata.doi.gov/blog/">blog</a>. Links in parentheses below go to pages on those websites. 
+
+### Team
+* Agile Team: Product Owner, Developer, Content Strategist, 2 Program Analysts, UX Designer (me)
+* Leadership & Stakeholders: Program Manager, Director & Deputy Director, Department of the Interior Political Appointees, Public & Congressional Affairs Manager, Data Retrieval Team, Freedom of Information Act Team, Royalty Policy Committee
+
+### Problem
+How do we reframe the site to meet user needs? (<a href=
+"https://github.com/DOI-ONRR/nrrd/wiki/Product-framing#problem-statement">Full problem statement</a>)
+
+### Understanding user needs
+I conducted several rounds of user research that resulted in this vision statement.<br><br>
+“We are informing policy debates and raising public awareness by building the definitive source of timely and useful data about how the government manages federal energy and mineral resources, revenue, and disbursements.” (<a href="https://github.com/DOI-ONRR/nrrd/wiki/Product-framing#our-vision">More about the vision</a>)
+
+The dots below represent users I interviewed grouped by how they accessed and used the data. They grouped into 4 user types: Question Answerers, Agenda Supporters, Storytellers, and Domain Learners. These user types informed the vision and drove all the decisions we made about the product going forward. (<a href="https://github.com/DOI-ONRR/research/blob/main/nrrd-research/00_UserTypes/00_UserTypes.md">More about these user types</a>)<br>
+![User types mapped on one triangle representing known questions, system understanding, and exploration and another triangle representing providing an answer, presenting data, and making a decision.](./img/portfolio/ONRR/PersonaTriangles.jpeg)
+
+### Design implications
+Before we reframed the website, it was a very static site based on the requirements of the U.S. Extractives Industries Transparency Initiative. (<a href="./blog/HomepageBlog.pdf">Blog post about reframing the homepage</a>)
+![Screenshot of Natural Resources Revenue Data website showing the beginning state before redesign.](./img/portfolio/ONRR/NRRD_Before.jpeg)
+
+After learning that several types of users wanted to slice and dice the data without having to download a spreadsheet, we started iteratively working the website towards the ability to filter the data.
+
+#### Early iterations
+The first iterations of the filter tool were based on an old tool that internal users had asked us to bring back. It involved picking filters before seeing the data. In user research, we learned that people wanted to see the data before picking filters, so they could understand the scope of the data.<br>
+![Screenshot of first built query tool with filters that have to be submitted before the table is built.](./img/portfolio/ONRR/Filter1.jpeg)<br>
+The second iteration attempted to group the data, but also didn't provide enough visibility to the data for users.<br>
+![Screenshot of built query data page with first pass at groupings and filters.](./img/portfolio/ONRR/Filter2.jpeg)<br>
+The third version offered visibility to the data, but users didn't quite understand how to drill down.<br>
+![Screenshot of a design for filterable tables with grouping and table or graph view.](./img/portfolio/ONRR/Filter3.jpeg)
+
+#### Final design
+We ended up building this version where you can see all the data before filtering and add multiple grouping columns. We also added a download function after learning that users wanted to download just what they'd filtered the data to. It performed well with users and is still on the <a href="https://revenuedata.doi.gov/query-data">live website</a>.
+
+![![Screenshot of a design for filterable tables with grouping and table or graph view.](./img/portfolio/ONRR/Filter_Built.jpeg)
+
+### Outcomes
+The reframing of the website and redesign resulted in:
+* Improved usability
+* Increased site usage
+* More targeted downloads
+* Improved accessibility
+* Increased resources by giving us 2 contract developers to make further improvements
+
+
+### Learn more
+You can read about the work I did at the Office of Natural Resources Revenue in [my team's blog](https://revenuedata.doi.gov/blog/).
