@@ -318,6 +318,12 @@ header .intro-text .intro-heading {
     }
 }
 
+@media (max-width: 768px) {
+    .intro-text {
+        margin-top: 7rem;
+    }
+}
+
 section {
     padding: 0px 0;
 }
