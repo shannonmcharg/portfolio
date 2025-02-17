@@ -45,7 +45,7 @@ Participants: 9 participants from state apprenticeship agencies.
 Screen that we tested:<br>
 ![Screenshot of data and statistics page before usability issues were addressed.](./img/portfolio/DOL/R1_Before.jpeg)<br>
 
-<a href="https://hu56of.axshare.com/#id=5qudft&p=redesign_v1&g=1">Prototype</a> to address issues:<br>
+<a href="https://hu56of.axshare.com/#id=5qudft&p=redesign_v1&g=1">Prototype to address issues</a>:<br>
 ![Screenshot of prototype of data and statistics page that addresses usability issues.](./img/portfolio/DOL/R1_After.jpeg)
 
 ### User research: Round 2
@@ -61,7 +61,7 @@ Participants: 4 researchers, 3 economists, and 2 journalists.
 * Participants thought we didn’t have county-level data because it isn’t available for the default display setting.
 * Wage data wasn’t discoverable. <br>
 
-Tested <a href="https://hu56of.axshare.com/#id=b2fv5x&p=redesign_feb_16toggles&g=1">prototype</a>:<br>
+<a href="https://hu56of.axshare.com/#id=b2fv5x&p=redesign_feb_16toggles&g=1">Tested prototype</a>:<br>
 ![Screenshot of the version of the data and statistics page tested with public users.](./img/portfolio/DOL/R2.jpeg)
 
 ### Final design
