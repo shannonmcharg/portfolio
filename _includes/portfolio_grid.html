@@ -21,7 +21,7 @@
             {% for post in site.posts %}
             {% if post.category == "civic" %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" data-keyboard="true" onclick="return false;">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" data-keyboard="true" onclick="event.preventDefault();">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -48,7 +48,7 @@
             {% for post in site.posts %}
             {% if post.category == "consulting" %}
                 <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" data-keyboard="true" onclick="return false;">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" data-keyboard="true" onclick="event.preventDefault();">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -76,7 +76,7 @@
             {% for post in site.posts %}
             {% if post.category == "LLB" %}
                 <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" data-keyboard="true" onclick="return false;">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" data-keyboard="true" onclick="event.preventDefault();">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -102,7 +102,7 @@
             {% for post in site.posts %}
             {% if post.category == "HRB" %}
                 <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" data-keyboard="true" onclick="return false;">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" data-keyboard="true" onclick="event.preventDefault();">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
