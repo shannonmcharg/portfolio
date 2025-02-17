@@ -418,6 +418,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+    margin-bottom: 15px;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
