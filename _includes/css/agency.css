@@ -25,12 +25,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a,
@@ -286,7 +286,6 @@ header .intro-text .intro-lead-in {
     font-family: {{ site.data.template.font.secondary }};
     color: #{{ site.data.template.color.tertiary }};
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
 }
 
@@ -301,15 +300,14 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 150px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
     }
 
@@ -335,7 +333,7 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     font-size: 40px;
 }
 
@@ -350,12 +348,12 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
     }
 }
 
 .service-heading {
-    margin: 0px 0;
+    margin: 15px 0;
     text-transform: none;
 }
 
