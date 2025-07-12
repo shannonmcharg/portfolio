@@ -1,11 +1,9 @@
-import { User, Monitor, CheckCircle } from "lucide-react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
 const Services = () => {
   const serviceCategories = [
     {
       title: "Research & Analysis",
-      icon: User,
       description: "Understanding users and their needs through comprehensive research methods",
       services: [
         "Usability Testing",
@@ -19,8 +17,7 @@ const Services = () => {
       ]
     },
     {
-      title: "Design", 
-      icon: Monitor,
+      title: "Design",
       description: "Creating intuitive and effective user experiences",
       services: [
         "User Experience Strategy",
@@ -31,13 +28,12 @@ const Services = () => {
         "Visual Design",
         "Design Systems",
         "Plain Language, Content Simplification, and UX Writing",
-        "Figma and Axure Prototyping",
+        "Figma, Axure, and Lovable Prototyping",
         "Storyboarding and Journey Mapping"
       ]
     },
     {
       title: "Leadership",
-      icon: CheckCircle,
       description: "Guiding teams and projects to successful outcomes",
       services: [
         "Product Management",
@@ -63,7 +59,6 @@ const Services = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {serviceCategories.map((category, index) => {
-            const IconComponent = category.icon;
             return (
               <Card 
                 key={category.title}
@@ -71,12 +66,6 @@ const Services = () => {
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 <CardHeader className="text-left pb-6">
-                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <IconComponent 
-                      className="w-8 h-8 text-foreground" 
-                      aria-hidden="true"
-                    />
-                  </div>
                   <h3 className="text-xl font-semibold text-foreground mb-2">
                     {category.title}
                   </h3>
