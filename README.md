@@ -1,50 +1,73 @@
-Agency Jekyll theme
-====================
+# Welcome to your Lovable project
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+## Project info
 
-# How to use
+**URL**: https://lovable.dev/projects/c8c1e455-5280-4700-82f4-818ce4e9cea3
 
-###Portfolio 
+## How can I edit this code?
 
-Portfolio projects are in '/_posts'
+There are several ways of editing your application.
 
-Images are in '/img/portfolio'
+**Use Lovable**
 
-###About
+Simply visit the [Lovable Project](https://lovable.dev/projects/c8c1e455-5280-4700-82f4-818ce4e9cea3) and start prompting.
 
-Images are in '/img/about/'
+Changes made via Lovable will be committed automatically to this repo.
 
-###Team
+**Use your preferred IDE**
 
-Team members and info are in '_config.yml'
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-Images are in '/img/team/'
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
+Follow these steps:
 
-# Demo
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+# Step 3: Install the necessary dependencies.
+npm i
 
-# Containerized
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-`make container` to build the build container
+**Edit a file directly in GitHub**
 
-All builds/work happens inside this container. It is frozen at Ruby 3.3 for compatibility reasons. 
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-The `Gemfile.lock` is generated as part of the build process. It may be, at some point, that deleting the `Gemfile.lock` and then rerunning `make container ; make build` is a Good Thing.
+**Use GitHub Codespaces**
 
-`make build` to build the site
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-This should build the site, leaving everything in `_site`
+## What technologies are used for this project?
 
-`make serve` to serve it locally at :4000
+This project is built with:
 
-This should build the site and launch a preview you can reach at 
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-http://localhost:4000/
+## How can I deploy this project?
 
+Simply open [Lovable](https://lovable.dev/projects/c8c1e455-5280-4700-82f4-818ce4e9cea3) and click on Share -> Publish.
 
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
