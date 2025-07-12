@@ -326,6 +326,38 @@ const Portfolio = () => {
     return project.image || null;
   };
 
+  const getProjectAltText = (project: any) => {
+    const altTextMap: { [key: string]: string } = {
+      "dol-apprenticeship-data": "Screenshot of Department of Labor apprenticeship data visualization dashboard showing interactive charts and filters for exploring apprenticeship statistics",
+      "onrr-redesign": "Homepage mockup of redesigned ONRR.gov website featuring clean layout, improved navigation, and user-focused content organization",
+      "nrrd-portal": "Interface design for Natural Resources Revenue Data Portal showing data visualization tools and search functionality for government revenue data",
+      "maine-ballot": "Maine ballot information website interface displaying referendum questions with clear explanations and voting guidance for citizens",
+      "tax-data-visualization": "H&R Block tax data visualization screens showing interactive charts and graphs that explain tax situations to office clients",
+      "ipad-tax-prep": "iPad tax preparation app interface showing touch-optimized forms and navigation designed for H&R Block At Home suite",
+      "1040ez-mobile": "Mobile tax preparation app design for H&R Block showing simplified form entry and tax calculation features on smartphone",
+      "block-mobile": "H&R Block mobile customer management app interface for retail office clients with account login and document upload features",
+      "block-mobile-ipad": "iPad-optimized version of H&R Block mobile app featuring enhanced layout and touch interactions for tablet users",
+      "block-live": "Block Live product interface design enabling remote tax preparation with live professional assistance and interactive features",
+      "taxcut-support": "TaxCut support website redesign showing self-service help resources and troubleshooting tools to reduce call center volume",
+      "taxcut-welcome": "TaxCut welcome sequence interface displaying streamlined onboarding flow to reduce confusion about creating multiple tax returns",
+      "taxcut-support-reports": "TaxCut support dashboard showing data visualization and reporting tools for tracking issues and evaluating design implementations",
+      "deductionpro-donations": "DeductionPro donations workflow interface showing improved data entry screens and error reduction features for H&R Block software",
+      "llbean-responsive": "L.L.Bean responsive website design showing redesigned header, footer, and product taxonomy optimized for tablet users down to 600px",
+      "llbean-customization": "L.L.Bean product customization tool interface displaying responsive design for configuring personalized products on tablets",
+      "llbean-responsive-email": "L.L.Bean responsive email template design showing how transactional emails adapt across different devices and email clients",
+      "llbean-account": "L.L.Bean My Account section redesign featuring improved navigation and responsive layout for cross-device account management",
+      "ati-nursing": "ATI Nursing Education student portal showing responsive interface for tutorials, practice exams, and NCLEX certification preparation",
+      "planit-impact": "PlanIt Impact environmental reporting tool interface showing data visualizations for architects to evaluate design environmental impact",
+      "pomco-emergency": "POMCO emergency alert system mobile app interface showing bluetooth device integration and emergency notification features for campus safety",
+      "hallmark-baby": "Hallmark Baby responsive e-commerce website built on Demandware platform showing product catalog and shopping features",
+      "zumba-instructor": "Zumba Instructor Network portal redesign displaying community features and resources for fitness instructors",
+      "city-year-redesign": "City Year nonprofit website redesign showing improved information architecture and visual design for community service organization",
+      "cruises-only": "Cruises Only travel website showing restructured navigation and page templates for cruise booking and information"
+    };
+    
+    return altTextMap[project.id] || `${project.title} project screenshot showing ${project.description}`;
+  };
+
   return (
     <section id="portfolio" className="py-12 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -354,9 +386,9 @@ const Portfolio = () => {
                 >
                   <div className="aspect-video overflow-hidden">
                     {getProjectImage(project) ? (
-                      <img 
-                        src={getProjectImage(project)} 
-                        alt={`${project.title} screenshot`}
+                       <img 
+                         src={getProjectImage(project)} 
+                         alt={getProjectAltText(project)}
                         className="w-full h-full object-cover object-top"
                       />
                     ) : (
@@ -410,9 +442,9 @@ const Portfolio = () => {
                 >
                   <div className="aspect-video overflow-hidden">
                     {getProjectImage(project) ? (
-                      <img 
-                        src={getProjectImage(project)} 
-                        alt={`${project.title} screenshot`}
+                       <img 
+                         src={getProjectImage(project)} 
+                         alt={getProjectAltText(project)}
                         className="w-full h-full object-cover object-top"
                       />
                     ) : (
@@ -466,9 +498,9 @@ const Portfolio = () => {
                 >
                   <div className="aspect-video overflow-hidden">
                     {getProjectImage(project) ? (
-                      <img 
-                        src={getProjectImage(project)} 
-                        alt={`${project.title} screenshot`}
+                       <img 
+                         src={getProjectImage(project)} 
+                         alt={getProjectAltText(project)}
                         className="w-full h-full object-cover object-top"
                       />
                     ) : (
@@ -522,9 +554,9 @@ const Portfolio = () => {
                 >
                   <div className="aspect-video overflow-hidden">
                     {getProjectImage(project) ? (
-                      <img 
-                        src={getProjectImage(project)} 
-                        alt={`${project.title} screenshot`}
+                       <img 
+                         src={getProjectImage(project)} 
+                         alt={getProjectAltText(project)}
                         className="w-full h-full object-cover object-top"
                       />
                     ) : (

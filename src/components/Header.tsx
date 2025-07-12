@@ -37,7 +37,16 @@ const Header = () => {
   const isActive = (sectionId: string) => activeSection === sectionId;
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <>
+      {/* Skip Navigation Link */}
+      <a 
+        href="#main-content" 
+        className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 bg-primary text-primary-foreground px-4 py-2 z-50 transition-all"
+      >
+        Skip to main content
+      </a>
+      
+      <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
@@ -123,7 +132,8 @@ const Header = () => {
           </div>
         )}
       </div>
-    </header>
+      </header>
+    </>
   );
 };
 
