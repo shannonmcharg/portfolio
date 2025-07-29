@@ -17,12 +17,12 @@ const Hero = () => {
           <div className="max-w-2xl">
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-6 animate-slide-up">
               Effective experiences,{" "}
-              <span className="text-foreground">designed efficiently</span>
+              <span className="text-foreground">executed efficiently</span>
             </h1>
             
             <div className="text-lg sm:text-xl text-muted-foreground leading-relaxed animate-slide-up [animation-delay:200ms] space-y-4">
               <p>
-                I am an experience strategist and product manager specializing in complex domains. I thrive on solving complex design problems from strategic vision to the tactical details. I'm always looking for ways my design skills can have an impact on the world and am most interested projects in the sustainability or civic spaces.
+                I am an experience strategist and product manager specializing in complex domains. I thrive on solving complex design problems from strategic vision to the tactical details. I'm always looking for ways my design skills can have an impact on the world and am most interested in projects in the sustainability or civic spaces.
               </p>
               
               <p>
@@ -35,21 +35,12 @@ const Hero = () => {
           <div className="animate-slide-up [animation-delay:400ms]">
             <Card className="shadow border-border/50">
               <CardContent className="p-8">
-                <div className="flex flex-col gap-6">
-                  {/* Profile Image */}
-                  <div className="flex justify-center">
-                    <img
-                      src={shannonProfile}
-                      alt="Shannon McHarg, Principal UX Designer"
-                      className="w-32 h-32 rounded-full object-cover object-center"
-                    />
-                  </div>
-
+                <div className="flex flex-col sm:flex-row gap-6">
                   {/* Bio Content */}
-                  <div className="text-left">
-                    <h3 className="text-2xl font-bold text-foreground mb-4">
+                  <div className="text-left flex-1">
+                    <h2 className="text-2xl font-bold text-foreground mb-4">
                       Shannon McHarg, Principal
-                    </h3>
+                    </h2>
                     
                     <div className="space-y-4 text-muted-foreground mb-6 text-sm">
                       <p>
@@ -91,9 +82,18 @@ const Hero = () => {
                         <Github className="w-4 h-4" aria-hidden="true" />
                         GitHub
                       </a>
-                    </div>
-                  </div>
-                </div>
+                     </div>
+                   </div>
+
+                   {/* Profile Image */}
+                   <div className="flex justify-center sm:justify-end">
+                     <img
+                       src={shannonProfile}
+                       alt="Shannon McHarg, Principal UX Designer"
+                       className="w-32 h-32 rounded-full object-cover object-center flex-shrink-0"
+                     />
+                   </div>
+                 </div>
               </CardContent>
             </Card>
           </div>

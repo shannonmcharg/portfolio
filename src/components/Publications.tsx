@@ -234,72 +234,74 @@ const Publications = () => {
           </h2>
         </div>
 
-        <div className="max-w-4xl">
-          {/* Articles Section */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold text-foreground mb-6">
-              Articles
-            </h3>
-            <div className="space-y-4">
-              {articles.map((article, index) => (
-                <div 
-                  key={index}
-                  className="border-b border-border/30 pb-4 last:border-b-0 last:pb-0"
-                >
-                  <div className="space-y-2">
-                    <a
-                      href={article.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary hover:text-primary-light transition-colors underline"
-                    >
-                      <h4 className="text-lg font-medium leading-tight">
-                        {article.title}
-                      </h4>
-                    </a>
-                    <p className="text-muted-foreground">
-                      {article.publication}. {article.date}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Presentations Section */}
-          <div>
-            <h3 className="text-2xl font-bold text-foreground mb-6">
-              Presentations
-            </h3>
-            <div className="space-y-4">
-              {presentations.map((presentation, index) => (
-                <div 
-                  key={index}
-                  className="border-b border-border/30 pb-4 last:border-b-0 last:pb-0"
-                >
-                  <div className="space-y-2">
-                    {presentation.url ? (
+        <div className="max-w-6xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Articles Section */}
+            <div>
+              <h3 className="text-2xl font-bold text-foreground mb-6">
+                Articles
+              </h3>
+              <div className="space-y-4">
+                {articles.map((article, index) => (
+                  <div 
+                    key={index}
+                    className="border-b border-border/30 pb-4 last:border-b-0 last:pb-0"
+                  >
+                    <div className="space-y-2">
                       <a
-                        href={presentation.url}
+                        href={article.url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:text-primary-light transition-colors underline"
                       >
                         <h4 className="text-lg font-medium leading-tight">
-                          {presentation.title}
+                          {article.title}
                         </h4>
                       </a>
-                    ) : (
-                      <h4 className="text-lg font-medium leading-tight text-foreground">
-                        {presentation.title}
-                      </h4>
-                    )}
-                    <p className="text-muted-foreground">
-                      {presentation.publication}. {presentation.date}
-                    </p>
+                      <p className="text-muted-foreground">
+                        {article.publication}. {article.date}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
+            </div>
+
+            {/* Presentations Section */}
+            <div>
+              <h3 className="text-2xl font-bold text-foreground mb-6">
+                Presentations
+              </h3>
+              <div className="space-y-4">
+                {presentations.map((presentation, index) => (
+                  <div 
+                    key={index}
+                    className="border-b border-border/30 pb-4 last:border-b-0 last:pb-0"
+                  >
+                    <div className="space-y-2">
+                      {presentation.url ? (
+                        <a
+                          href={presentation.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-primary hover:text-primary-light transition-colors underline"
+                        >
+                          <h4 className="text-lg font-medium leading-tight">
+                            {presentation.title}
+                          </h4>
+                        </a>
+                      ) : (
+                        <h4 className="text-lg font-medium leading-tight text-foreground">
+                          {presentation.title}
+                        </h4>
+                      )}
+                      <p className="text-muted-foreground">
+                        {presentation.publication}. {presentation.date}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

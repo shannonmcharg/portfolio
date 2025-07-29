@@ -41,9 +41,9 @@ const Experience = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <Card className="shadow border-border/50">
               <CardContent className="p-6">
-                <h4 className="text-lg font-semibold text-foreground mb-4">
+                <h3 className="text-lg font-semibold text-foreground mb-4">
                   Industries
-                </h4>
+                </h3>
                 <ul className="space-y-2" role="list">
                   {industries.map((industry) => (
                     <li 
@@ -51,7 +51,7 @@ const Experience = () => {
                       className="flex items-start text-sm text-foreground"
                     >
                       <span 
-                        className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0" 
+                        className="w-1.5 h-1.5 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"
                         aria-hidden="true"
                       />
                       {industry}
@@ -63,9 +63,9 @@ const Experience = () => {
 
             <Card className="shadow border-border/50">
               <CardContent className="p-6">
-                <h4 className="text-lg font-semibold text-foreground mb-4">
+                <h3 className="text-lg font-semibold text-foreground mb-4">
                   Major Clients
-                </h4>
+                </h3>
                 <ul className="space-y-2" role="list">
                   {majorClients.map((client) => (
                     <li 
@@ -73,7 +73,7 @@ const Experience = () => {
                       className="flex items-start text-sm text-foreground"
                     >
                       <span 
-                        className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0" 
+                        className="w-1.5 h-1.5 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"
                         aria-hidden="true"
                       />
                       {client}
@@ -85,9 +85,9 @@ const Experience = () => {
 
             <Card className="shadow border-border/50">
               <CardContent className="p-6">
-                <h4 className="text-lg font-semibold text-foreground mb-4">
+                <h3 className="text-lg font-semibold text-foreground mb-4">
                   Platforms
-                </h4>
+                </h3>
                 <ul className="space-y-2" role="list">
                   {platforms.map((platform) => (
                     <li 
@@ -95,7 +95,7 @@ const Experience = () => {
                       className="flex items-start text-sm text-foreground"
                     >
                       <span 
-                        className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0" 
+                        className="w-1.5 h-1.5 bg-accent rounded-full mt-2 mr-3 flex-shrink-0" 
                         aria-hidden="true"
                       />
                       {platform}

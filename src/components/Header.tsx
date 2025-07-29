@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("hero");
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const navigation = [
     { name: "Services", href: "#services", id: "services" },
@@ -35,6 +37,19 @@ const Header = () => {
   }, []);
 
   const isActive = (sectionId: string) => activeSection === sectionId;
+
+  const handleNavigation = (sectionId: string) => {
+    if (location.pathname === '/') {
+      // Already on homepage, just scroll to section
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      // Navigate to homepage with hash
+      navigate(`/#${sectionId}`);
+    }
+  };
 
   return (
     <>
@@ -70,18 +85,17 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8" role="navigation" aria-label="Main navigation">
             {navigation.map((item) => (
-              <a
+              <button
                 key={item.name}
-                href={item.href}
+                onClick={() => handleNavigation(item.id)}
                 className={`${
                   isActive(item.id) 
                     ? "text-primary bg-primary/10 border-b-2 border-primary" 
                     : "text-primary hover:text-primary-light"
-                } transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md px-3 py-2 text-sm font-medium`}
-                {...(item.href.startsWith('/') && { as: Link, to: item.href })}
+                } transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md px-3 py-2 text-sm font-medium cursor-pointer`}
               >
                 {item.name}
-              </a>
+              </button>
             ))}
           </nav>
 
@@ -114,19 +128,20 @@ const Header = () => {
           >
             <div className="px-2 pt-2 pb-3 space-y-1 border-t bg-background">
               {navigation.map((item) => (
-                <a
+                <button
                   key={item.name}
-                  href={item.href}
+                  onClick={() => {
+                    handleNavigation(item.id);
+                    setIsMenuOpen(false);
+                  }}
                   className={`${
                     isActive(item.id)
                       ? "text-primary bg-primary/10 border-l-4 border-primary"
                       : "text-primary hover:text-primary-light"
-                  } block px-3 py-2 text-base font-medium hover:bg-muted transition-colors duration-200 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2`}
-                  onClick={() => setIsMenuOpen(false)}
-                  {...(item.href.startsWith('/') && { as: Link, to: item.href })}
+                  } block px-3 py-2 text-base font-medium hover:bg-muted transition-colors duration-200 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 w-full text-left cursor-pointer`}
                 >
                   {item.name}
-                </a>
+                </button>
               ))}
             </div>
           </div>
