@@ -200,7 +200,7 @@ const ProjectDetail = () => {
             <ul key={`list-before-${lineIndex}`} className="space-y-1 my-1">
               {currentList.map((item, itemIndex) => (
                 <li key={itemIndex} className="text-muted-foreground flex items-start">
-                  <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0" aria-hidden="true" />
+                  <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 mr-3 flex-shrink-0" aria-hidden="true" />
                   <span className="flex-1">{renderLineWithLinks(item)}</span>
                 </li>
               ))}
@@ -212,9 +212,9 @@ const ProjectDetail = () => {
         // Render the subheading
         const headingText = line.substring(4).trim();
         result.push(
-          <h5 key={`heading-${lineIndex}`} className="text-base font-semibold text-foreground mt-4 mb-1">
+          <h4 key={`heading-${lineIndex}`} className="text-base font-semibold text-foreground mt-4 mb-1">
             {headingText}
-          </h5>
+          </h4>
         );
       } else if (line.startsWith('•')) {
         const bulletContent = line.substring(1).trim();
@@ -226,7 +226,7 @@ const ProjectDetail = () => {
             <ul key={`list-${lineIndex}`} className="space-y-1 my-1">
               {currentList.map((item, itemIndex) => (
                 <li key={itemIndex} className="text-muted-foreground flex items-start">
-                  <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0" aria-hidden="true" />
+                  <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 mr-3 flex-shrink-0" aria-hidden="true" />
                   <span className="flex-1">{renderLineWithLinks(item)}</span>
                 </li>
               ))}
@@ -255,7 +255,7 @@ const ProjectDetail = () => {
         <ul key="final-list" className="space-y-1 my-1">
           {currentList.map((item, itemIndex) => (
             <li key={itemIndex} className="text-muted-foreground flex items-start">
-              <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0" aria-hidden="true" />
+              <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 mr-3 flex-shrink-0" aria-hidden="true" />
               <span className="flex-1">{renderLineWithLinks(item)}</span>
             </li>
           ))}
@@ -1963,7 +1963,7 @@ IMAGE:CruisesOnlyDrillDownImg:Drill down screen after redesign showing improved 
                               
                               return (
                                 <div key={partIndex} className="space-y-3">
-                                   {title && <h4 className="text-lg font-semibold text-foreground">{title}</h4>}
+                                   {title && <h3 className="text-lg font-semibold text-foreground">{title}</h3>}
                                    {content && (
                                      <div className="text-muted-foreground leading-relaxed">
                                        {renderContentWithLinks(content)}

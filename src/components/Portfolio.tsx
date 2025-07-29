@@ -401,7 +401,7 @@ const Portfolio = () => {
                   <CardHeader className="px-3 py-6">
                     <div className="flex items-start justify-between gap-4">
                       <div className="flex-1">
-                        <CardTitle className="text-xl mb-2">
+                        <CardTitle as="h4" className="text-xl mb-2">
                           <Link 
                             to={`/projects/${project.id}`}
                             className="text-primary underline hover:text-primary/80 transition-colors duration-200"
@@ -457,7 +457,7 @@ const Portfolio = () => {
                   <CardHeader className="px-3 py-6">
                     <div className="flex items-start justify-between gap-4">
                       <div className="flex-1">
-                        <CardTitle className="text-xl mb-2">
+                        <CardTitle as="h4" className="text-xl mb-2">
                           <Link 
                             to={`/projects/${project.id}`}
                             className="text-primary underline hover:text-primary/80 transition-colors duration-200"
@@ -513,7 +513,7 @@ const Portfolio = () => {
                   <CardHeader className="px-3 py-6">
                     <div className="flex items-start justify-between gap-4">
                       <div className="flex-1">
-                        <CardTitle className="text-xl mb-2">
+                        <CardTitle as="h4" className="text-xl mb-2">
                           <Link 
                             to={`/projects/${project.id}`}
                             className="text-primary underline hover:text-primary/80 transition-colors duration-200"
@@ -569,7 +569,7 @@ const Portfolio = () => {
                   <CardHeader className="px-3 py-6">
                     <div className="flex items-start justify-between gap-4">
                       <div className="flex-1">
-                        <CardTitle className="text-xl mb-2">
+                        <CardTitle as="h4" className="text-xl mb-2">
                           <Link 
                             to={`/projects/${project.id}`}
                             className="text-primary underline hover:text-primary/80 transition-colors duration-200"

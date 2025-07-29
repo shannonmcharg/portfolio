@@ -81,7 +81,7 @@ const Services = () => {
                         className="flex items-start text-sm text-foreground"
                       >
                         <span 
-                          className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0" 
+                          className="w-1.5 h-1.5 bg-accent rounded-full mt-2 mr-3 flex-shrink-0" 
                           aria-hidden="true"
                         />
                         {service}
