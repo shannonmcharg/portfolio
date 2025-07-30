@@ -13,12 +13,13 @@ const Header = () => {
     { name: "Services", href: "#services", id: "services" },
     { name: "Experience", href: "#experience", id: "experience" },
     { name: "Portfolio", href: "#portfolio", id: "portfolio" },
+    { name: "Testimonials", href: "#testimonials", id: "testimonials" },
     { name: "Publications", href: "#publications", id: "publications" },
   ];
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["hero", "services", "experience", "portfolio", "publications"];
+      const sections = ["hero", "services", "experience", "portfolio", "testimonials", "publications"];
       const scrollPosition = window.scrollY + 100; // Offset for header height
 
       for (let i = sections.length - 1; i >= 0; i--) {

@@ -23,7 +23,7 @@ const Experience = () => {
     "Internet of Things",
     "Cloud Applications",
     "Databases",
-    "APIs"  
+    "APIs"
   ];
 
   return (
